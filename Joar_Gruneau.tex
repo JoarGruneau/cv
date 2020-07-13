@@ -1,0 +1,110 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.2 (25/3/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+
+\usepackage[scale=0.9]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Joar} % Your first name
+\familyname{Gruneau} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{CV}
+\address{Angermannagatan 176, Vallingby, Stockholm, Sverige}{162 65}
+\mobile{+46 768096246}
+\email{joar@gruneau.se}
+\homepage{www.github.com/JoarGruneau}{}
+\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{Work experience}
+\cventry{2019-current}{Crypto currency trading engine}{}{}{}{I single-handedly developed and launched a fully automated machine learning crypto currency trading engine. The engine currently trades on Binance's spot and futures exchanges. During this project I enhanced my knowledge of python development, machine learning and pytorch, automated trading through APIs, data scraping and data base management in noSQL (mongodb).}
+\cventry{2018}{Software developer}{BlackRock}{}{}{I worked in two teams during
+  my time with BlacRock. I started out developing technologies to enhance the
+  performance of the companies sales force together with the model portfolio front-end team. Working in a big international team over many different time zones teaches you to build strong teamwork skills and take ownership of your work. I was then part of the fixed income and equities risk modeling team and worked in their pursuit to decrease the new model development time cycle by bringing their models onto their new modeling platform.}
+\cventry{2018}{Master Thesis}{KTH in collaboration with BlackRock}{}{}{The project performed an investigation of deep learning approaches for overhead imagery
+analysis for detecting and counting vehicles. The result was a pipeline that achieved the same performance as previous state of the art models in $1/100$ of the computational time.}
+\cventry{2017}{Software developer}{BlackRock}{}{}{During the summer internship at BlackRock I worked as a back-end developer with their desktop services. This gave me a very valuable insight into large scale agile software development.}
+\cventry{2011--2016}{Tutor}{Studybuddy}{}{}{Taught math and physics to high school students.}
+\cventry{2013--2016}{Climbing instructor}{Klattercentret}{}{}{I held climbing schools a few times a week for children of age 10 to 18. I also automated the climbing school's online queue system.}
+
+%%----------------------------------------------------------------------------------------
+%%	EDUCATION SECTION
+%%----------------------------------------------------------------------------------------
+\section{Interests within computer science}
+\cventry{}{Artificial intelligence}{}{}{}{My master sub track focused on machine
+  learning. I am especially interested in deep learning since I think it is a
+  area which shows a lot of promise. Currently I'm studying time series analysis
+  models and their applications within finance.}
+
+\section{Education}
+\cventry{2016--2018}{Masters program in computer science}{Royal Institute of Technology (KTH)}{}{}{}
+\cventry{2018}{Exchange semester in computer science}{Norwegian University of Science and Technology (NTNU)}{}{}{}
+\cventry{2011--2016}{Bachelor degree, Engineering
+Physics}{KTH}{}{}{}
+\cventry{2007-2011}{Gymnasium}{Blackeberg's gymnasium}{}{}{}
+
+
+\section{Projects}
+\cventry{}{Group organization service}{}{Personal project}{}{I worked on a
+  project to make it easier for organizations to manage their members and
+  groups. This exposed me to react, django, javascript, html and css.}
+\cventry{}{Image rendering with intermodulation atomic force
+  microscopy}{}{Bachelor project}{}{I developed data visualization software to
+  render an image or a short video of the sample given the input from an atomic
+  force microscopy.}
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Computer skills}
+
+\cvitem{Languages}{\textsc{python, java, javascript, typescript, erlang, C/C++, html/css, bash, matlab, SQL, noSQL}}
+\cvitem{Libraries}{\textsc{pytorch, pandas, tensorflow, numpy, django, angular, react}}
+\cvitem{Other skills}{CI/CD, Linux, Microsoft Windows, Git, \LaTeX,
+  ElasticSearch, Maven, OpenOffice, mongodb}
+
+\section{Languages}
+
+\cvitemwithcomment{Swedish}{Mother tongue}{}
+\cvitemwithcomment{English}{Fluent}{}
+\end{document}
